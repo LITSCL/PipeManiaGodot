@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbjkhwfyuywkm"]
+
+[ext_resource type="PackedScene" uid="uid://4072hbpeu31i" path="res://scenes/casillero.tscn" id="1_kuyi5"]
+[ext_resource type="Script" path="res://main.gd" id="1_tuvp7"]
+
+[node name="Main" type="Node2D" groups=["main"]]
+script = ExtResource("1_tuvp7")
+escena_casillero = ExtResource("1_kuyi5")
+
+[node name="Casillero" parent="." instance=ExtResource("1_kuyi5")]

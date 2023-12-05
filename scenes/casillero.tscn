@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://4072hbpeu31i"]
+
+[ext_resource type="Script" path="res://scripts/casillero.gd" id="1_388r8"]
+[ext_resource type="Texture2D" uid="uid://crh5tmtx6ugo7" path="res://graphics/sprite/1_sprite_1.png" id="2_22lua"]
+
+[node name="Casillero" type="Node2D"]
+
+[node name="Marker2D" type="Marker2D" parent="."]
+script = ExtResource("1_388r8")
+
+[node name="Sprite2D" type="Sprite2D" parent="Marker2D"]
+texture = ExtResource("2_22lua")
+hframes = 5
+vframes = 5
+frame = 3
+
+[node name="TextureButton" type="TextureButton" parent="Marker2D"]
+offset_left = -12.0
+offset_top = -11.0
+offset_right = 11.0
+offset_bottom = 11.0
+
+[connection signal="button_down" from="Marker2D/TextureButton" to="Marker2D" method="_on_texture_button_button_down"]
