@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://4072hbpeu31i"]
+[gd_scene load_steps=3 format=3 uid="uid://c6p4j5p1sq3k0"]
 
 [ext_resource type="Script" path="res://scripts/casillero.gd" id="1_388r8"]
-[ext_resource type="Texture2D" uid="uid://crh5tmtx6ugo7" path="res://graphics/sprite/1_sprite_1.png" id="2_22lua"]
+[ext_resource type="Texture2D" uid="uid://crh5tmtx6ugo7" path="res://assets/graphic/sprite/1_sprite_1.png" id="2_yqng3"]
 
 [node name="Casillero" type="Node2D"]
 
@@ -9,7 +9,7 @@
 script = ExtResource("1_388r8")
 
 [node name="Sprite2D" type="Sprite2D" parent="Marker2D"]
-texture = ExtResource("2_22lua")
+texture = ExtResource("2_yqng3")
 hframes = 5
 vframes = 5
 frame = 3
