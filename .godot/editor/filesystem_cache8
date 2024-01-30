@@ -1,8 +1,8 @@
 2a60927148abd1d33b818b535e306557
-::res://::1706594580
+::res://::1706600121
 icon.svg::CompressedTexture2D::4626216621259081538::1706533828::1706533855::1::::<><>::
-main.gd::GDScript::-1::1706533828::0::1::::<>Node2D<>::
-main.tscn::PackedScene::2475809761958541560::1706549768::0::1::::<><>::uid://ctlf8pvvw6i81<>res://main.gd
+main.gd::GDScript::-1::1706594600::0::1::::<>Node2D<>::
+main.tscn::PackedScene::2475809761958541560::1706594605::0::1::::<><>::uid://ctlf8pvvw6i81<>res://main.gd
 ::res://assets/::1706533901
 ::res://assets/font/::1706533828
 borrar.txt::TextFile::-1::1706533828::0::1::::<><>::
@@ -25,7 +25,11 @@ borrar.txt::TextFile::-1::1706533828::0::1::::<><>::
 borrar.txt::TextFile::-1::1706533828::0::1::::<><>::
 ::res://resources/::1706533828
 borrar.txt::TextFile::-1::1706533828::0::1::::<><>::
-::res://scenes/::1706549768
-casillero.tscn::PackedScene::6129500889242085844::1706549768::0::1::::<><>::res://scripts/casillero.gd<>uid://crh5tmtx6ugo7
-::res://scripts/::1706533828
-casillero.gd::GDScript::-1::1706533828::0::1::::<>Marker2D<>::
+::res://scenes/::1706594605
+casillero.tscn::PackedScene::6129500889242085844::1706600402::0::1::::<><>::res://scripts/casillero.gd<>uid://crh5tmtx6ugo7
+::res://scripts/::1706600398
+casillero.gd::GDScript::-1::1706594593::0::1::::<>Marker2D<>::
+::res://scripts/enemy/::1706600365
+::res://scripts/game_controller/::1706600379
+::res://scripts/player/::1706600389
+::res://scripts/random/::1706600398
