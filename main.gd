@@ -9,7 +9,7 @@ extends Node2D
 func _ready() -> void:
 	generar_casillero()
 
-func _physics_process(delta) -> void:
+func _physics_process(delta: float) -> void:
 	pass
 	
 #3. Zona de funciones Custom.

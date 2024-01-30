@@ -4,7 +4,7 @@ extends Marker2D
 func _ready() -> void:
 	pass
 
-func _physics_process(delta) -> void:
+func _physics_process(delta: float) -> void:
 	pass
 	
 #2. Zona de funciones Señal.
